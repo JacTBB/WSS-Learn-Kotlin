@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        app:showAsAction="always"
+        android:title="@string/refresh"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:id="@+id/refreshMenuItem"
+        />
+
+    <item
+        android:title="@string/quit"
+        android:id="@+id/quitMenuItem"/>
+</menu>

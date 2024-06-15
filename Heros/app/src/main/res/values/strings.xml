@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Heros_StudentCopy</string>
+    <string name="logoff">Logoff</string>
+    <string name="settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string-array name="comic_type">
+        <item>DC</item>
+        <item>Marvel</item>
+    </string-array>
+</resources>

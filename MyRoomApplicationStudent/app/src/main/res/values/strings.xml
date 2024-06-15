@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyRoomApplicationStudent</string>
+    <string name="name">Enter name</string>
+    <string name="noitems">Empty</string>
+    <string name="mobilenumber">Enter your mobile</string>
+
+</resources>

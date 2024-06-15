@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miRefresh"
+        android:title="Refresh"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/miSearch"
+        android:title="Search"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/miData"
+        android:title="Data"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/miDataImport"
+                android:title="Import"/>
+            <item
+                android:id="@+id/miDataClear"
+                android:title="Clear"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/miSettings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/miLogoff"
+        android:title="Logoff"
+        app:showAsAction="never"/>
+</menu>

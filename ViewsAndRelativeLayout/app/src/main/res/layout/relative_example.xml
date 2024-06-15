@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        />
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameTV"
+        />
+
+    <TextView
+        android:id="@+id/phoneNumberTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameET"
+        android:text="Phone Number"
+        />
+
+    <EditText
+        android:id="@+id/countryCodeET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+65"
+        android:layout_below="@id/phoneNumberTV"
+        />
+
+    <EditText
+        android:id="@+id/phoneNumberET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="65501683"
+        android:layout_below="@id/phoneNumberTV"
+        android:layout_toRightOf="@id/countryCodeET"
+        />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/phoneNumberET"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

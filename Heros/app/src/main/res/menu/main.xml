@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuitem_refresh"
+        android:title="@string/refresh"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menuitem_settings"
+        android:title="@string/settings"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menuitem_logoff"
+                android:title="@string/logoff"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
